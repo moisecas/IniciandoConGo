@@ -1,0 +1,31 @@
+Inicio con GO 
+
+Go, utilizado para backend. 
+Lenguaje compilador y tipado (indicarle el tipo de variable y de constante). 
+Creado con la intención para manejar grandes datos, es como mezclar c con python. Robustez de c pero la sencillez de python. 
+
+Se debe ingresar al gopath  desde la consola, se crea la carpeta donde se van a crear los proyectos. 
+Luego en el editor de código, para este caso visual code, iniciamos con la estructura. Ya adentro creamos una carpeta llamada src y creamos el archivo main.go 
+Es importante agregar la extensión go, la que es desarrollada por golang.go 
+package declaramos donde esta guardado, para este caso main 
+func para crear la función 
+fmt el paquete de impresión de consola
+Println para imprimir entre parentesis
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("hola men, vamos, el señor es bueno, adelante, recuerda todo lo que te ha dado. Tu familia")
+}
+
+ubicando en consola, cmd, ubicamos la ruta del archivo go, luego le damos go run nombredelarchivo.go, para ejecutarlo. 
+{} las llaves deben ir como se colocaron, no es valido abajo, dará error de sintaxis. 
+
+Se respetan espacios y aunque quiera dejar espacios a convenir el programa los corrige. 
+
+
+
+
+

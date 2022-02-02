@@ -1,0 +1,18 @@
+declaracion de constantes 
+const pi float64=3.14 
+se debe indicar el tipo de dato dentro de la declaración de la variable 
+const nombredevariable tipodedato = algo
+
+Se puede indicar el valor de variable sin indicar su tipo, si no dejo espacio entre el valor y el = al momento de guardar esto se corrige par que exista el espacio. 
+
+Declaración de variables enteras 
+:= no ha isdo asignada anteriormente 
+base := 12 así le da un valor de una vez 
+
+otra forma es usando var 
+var altura int = 14 
+var int 
+Se debe tener en cuenta que en go se subrayan las variables que no estamos usando. 
+
+zero value
+un valor que va a tener por defecto, cada tipo de dato tiene su valor pro defecto. 
